@@ -4,19 +4,16 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Boba Finder</title>
+    <title>Boba Finder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
-
-	</script>
 	<script src="script.js">
-
-	</script>
 </head>
 
 <body>
 	<div class='container'>
-		<h1>BOBA FINDER</h1>
+		<h1 id = 'title'>BOBA FINDER</h1>
 
 		<form id='js-form'>
 			<label for='search-term'>What city are you in:</label>
@@ -25,6 +22,7 @@
         </form>
 
         <p id="js-error-message" class="error-message"></p>
+        
         <section id="results" class="hidden">
           <h2>Boba shops near you:</h2>
           <ul id="results-list">

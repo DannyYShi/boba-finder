@@ -11,6 +11,7 @@ function formatQueryParams(params) {
 function displayResults(responseJson) {
   console.log(responseJson);
   $('#results-list').empty();
+  // const jsonResults = responseJson.results;
   for (let i = 0; i < responseJson.results.length; i++) {
     $('#results-list').append(
       `<li><h3>${responseJson.results[i].name}</h3>
@@ -53,3 +54,11 @@ function watchForm() {
 }
 
 $(watchForm);
+
+
+
+// Suggestions to make this more feature rich:
+// Paginate results (a lot of work)
+// Links or embedded maps ("oh it's off of that road!")
+// Embed map and put pins for each location
+// Query Yelp API and integrate that with Google Maps API
