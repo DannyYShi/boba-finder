@@ -11,7 +11,6 @@ function formatQueryParams(params) {
 function displayResults(responseJson) {
   console.log(responseJson);
   $('#results-list').empty();
-  // const jsonResults = responseJson.results;
   for (let i = 0; i < responseJson.results.length; i++) {
     $('#results-list').append(
       `<li><h3>${responseJson.results[i].name}</h3>
