@@ -2,18 +2,33 @@
     box-sizing: border-box;
   }
   
-  #title {
+  h1 {
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
   }
-
+  
+  form {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+  
+  .form-label {
+    font-size: 12px;
+  }
+  
   input {
     display: inline-block;
-    width: 100%;
+    width: 85%;
     padding: 12px 20px;
     margin: 8px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+  }
+  
+  #submit-button {
+    font-family: 'Montserrat', sans-serif;
+    width: 45%;
   }
   
   #submit-button:hover {
@@ -22,4 +37,14 @@
   
   .hidden {
     display: none;
+  }
+  
+  /* for tablets */
+  @media only screen and (min-width: 600px){
+  
+  }
+  
+  /* for desktops */
+  @media only screen and (min-width: 768px){
+    
   }
