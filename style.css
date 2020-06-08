@@ -20,27 +20,30 @@
   input {
     display: inline-block;
     width: 75%;
+    font-size: 2.75vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
     padding: 12px 20px;
-    margin: 8px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    font-size: 2.75vw;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+  }
+  
+  #location {
+    margin: 1.5em 0.5em;
   }
   
   #submit-button {
     font-family: 'Montserrat', sans-serif;
+    width: 35%;
     font-size: 3vw;
-    width: 45%;
   }
   
   #submit-button:hover {
     background-color: gainsboro;
   }
-
-#results {
+  
+  #results {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
   }
@@ -53,8 +56,7 @@
     margin: 50px;
     list-style: none;
   }
-
+  
   .hidden {
     display: none;
   }
-  
