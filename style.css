@@ -20,13 +20,14 @@
   input {
     display: inline-block;
     width: 75%;
-    font-size: 4vw;
-    font-family: 'Montserrat', sans-serif;
     padding: 12px 20px;
     margin: 8px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-size: 2.75vw;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
   }
   
   #submit-button {
@@ -43,12 +44,3 @@
     display: none;
   }
   
-  /* for tablets */
-  @media only screen and (min-width: 600px){
-  
-  }
-  
-  /* for desktops */
-  @media only screen and (min-width: 768px){
-    
-  }
