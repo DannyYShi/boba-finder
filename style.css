@@ -39,7 +39,21 @@
   #submit-button:hover {
     background-color: gainsboro;
   }
+
+#results {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
   
+  #results-list h3 {
+    text-decoration: underline;
+  }
+  
+  #results-list li {
+    margin: 50px;
+    list-style: none;
+  }
+
   .hidden {
     display: none;
   }
