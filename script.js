@@ -56,8 +56,4 @@ $(watchForm);
 
 
 
-// Suggestions to make this more feature rich:
-// Paginate results (a lot of work)
-// Links or embedded maps ("oh it's off of that road!")
-// Embed map and put pins for each location
-// Query Yelp API and integrate that with Google Maps API
+
