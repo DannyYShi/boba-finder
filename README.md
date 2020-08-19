@@ -8,10 +8,10 @@ This app uses the Google Maps Places API to search for boba shops in any given c
 
 ## Screenshots: 
 Landing Page: 
-![landing-page](Screen Shot 2020-08-19 at 11.19.26 AM.png)
+![landing-page](landing-page.jpg)
 
 Results: 
-![results](Screen Shot 2020-08-19 at 11.19.44 AM.png)
+![results](results.jpg)
 
 ## Tech used: 
 HTML/CSS/JavaScript/jQuery
